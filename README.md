@@ -2,6 +2,14 @@
 
 Project Flutter untuk starter aplikasi pengunci aplikasi tambahan dengan metode pattern lock.
 
+Android package name / application ID:
+
+```text
+com.deploydulupulangnanti.lockapp
+```
+
+Kebijakan privasi tersedia di [PRIVACY_POLICY.md](PRIVACY_POLICY.md). Untuk GitHub Pages, gunakan halaman [docs/privacy-policy.html](docs/privacy-policy.html).
+
 Project ini dibuat menggunakan Flutter dari FVM:
 
 ```powershell

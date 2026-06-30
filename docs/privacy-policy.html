@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi - Lock App Pattern</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f8fa;
+      color: #1f2937;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    article {
+      background: #ffffff;
+      border: 1px solid #d8dee4;
+      border-radius: 8px;
+      padding: 28px;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 21px;
+    }
+
+    code {
+      background: #eef2f7;
+      border-radius: 4px;
+      padding: 2px 5px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #0f172a;
+        color: #e5e7eb;
+      }
+
+      article {
+        background: #111827;
+        border-color: #334155;
+      }
+
+      code {
+        background: #1f2937;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Kebijakan Privasi</h1>
+      <p><strong>Lock App Pattern</strong><br>
+        Package name: <code>com.deploydulupulangnanti.lockapp</code><br>
+        Berlaku sejak: 30 Juni 2026
+      </p>
+
+      <h2>Ringkasan</h2>
+      <p>Lock App Pattern adalah aplikasi pengunci dengan pola. Aplikasi ini dirancang untuk membantu pengguna melindungi akses ke aplikasi atau area tertentu di perangkat.</p>
+      <p>Versi aplikasi saat ini tidak mengumpulkan, mengirim, menjual, atau membagikan data pribadi pengguna kepada pengembang maupun pihak ketiga.</p>
+
+      <h2>Data yang Dikumpulkan</h2>
+      <p>Aplikasi ini tidak mengumpulkan data pribadi seperti nama, email, nomor telepon, lokasi, kontak, foto, pesan, atau informasi identitas lainnya.</p>
+
+      <h2>Pola Kunci</h2>
+      <p>Pola kunci yang dibuat pengguna digunakan hanya untuk membuka aplikasi. Pola tersebut diproses di perangkat pengguna dan tidak dikirim ke server pengembang.</p>
+      <p>Pada versi saat ini, pola aktif selama sesi aplikasi berjalan. Jika pada versi berikutnya aplikasi menambahkan penyimpanan lokal permanen, data pola tetap akan disimpan di perangkat pengguna dan tidak dikirim ke server pengembang.</p>
+
+      <h2>Izin Perangkat</h2>
+      <p>Versi aplikasi saat ini tidak membutuhkan izin khusus untuk mengumpulkan data pengguna.</p>
+      <p>Jika di masa depan aplikasi menambahkan fitur pengunci aplikasi lain secara penuh di Android, aplikasi mungkin meminta izin tambahan seperti akses penggunaan aplikasi, layanan aksesibilitas, atau izin tampil di atas aplikasi lain. Izin tersebut hanya akan digunakan untuk menjalankan fungsi penguncian aplikasi di perangkat pengguna.</p>
+
+      <h2>Internet, Analytics, dan Iklan</h2>
+      <p>Aplikasi ini tidak menggunakan koneksi internet untuk mengirim data pengguna.</p>
+      <p>Aplikasi ini tidak menggunakan layanan analytics, tracking, iklan, atau SDK pihak ketiga untuk memantau aktivitas pengguna.</p>
+
+      <h2>Berbagi Data dengan Pihak Ketiga</h2>
+      <p>Pengembang tidak menjual, menyewakan, menukar, atau membagikan data pribadi pengguna kepada pihak ketiga.</p>
+
+      <h2>Keamanan</h2>
+      <p>Kami berupaya menjaga aplikasi agar aman digunakan. Namun, tidak ada metode penyimpanan atau pemrosesan data yang sepenuhnya bebas risiko. Pengguna disarankan untuk menjaga keamanan perangkat, tidak membagikan pola kunci kepada orang lain, dan mengunduh aplikasi hanya dari sumber resmi.</p>
+
+      <h2>Privasi Anak</h2>
+      <p>Aplikasi ini tidak ditujukan untuk mengumpulkan data dari anak-anak. Karena aplikasi tidak mengumpulkan data pribadi, pengembang tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak.</p>
+
+      <h2>Perubahan Kebijakan Privasi</h2>
+      <p>Kebijakan privasi ini dapat diperbarui jika fitur aplikasi berubah. Perubahan akan ditampilkan melalui pembaruan dokumen ini.</p>
+
+      <h2>Kontak</h2>
+      <p>Jika ada pertanyaan tentang kebijakan privasi ini, silakan hubungi pengembang melalui halaman GitHub repository aplikasi ini.</p>
+    </article>
+  </main>
+</body>
+</html>
